@@ -6,6 +6,13 @@
     transform: translate(0%, 100%);
 
 }
+
+.center-top{
+    position: relative;
+    top: 10%;
+    text-align: center;
+    transform: translate(0%, 20%);
+}
 .page1 {
     height: 100%;
     background-image: url("272183.jpg");
