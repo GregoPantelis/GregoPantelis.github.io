@@ -1,8 +1,10 @@
 .center {
+
     position: relative;
     top: 50%;
     text-align: center;
     transform: translate(0%, 100%);
+
 }
 .page1 {
     height: 100%;
