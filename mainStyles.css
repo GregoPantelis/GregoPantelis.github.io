@@ -12,11 +12,12 @@
 	background-position: center;
 	background-size: cover;
 }
-html, body
-{
+.page2 {
     height: 100%;
+    background-color: #428bca;
+    color: #FFFFFF;
 }
-.home-body
+html, body
 {
     height: 100%;
 }
