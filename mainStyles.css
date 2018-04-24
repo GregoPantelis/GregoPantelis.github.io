@@ -19,12 +19,17 @@
 }
 
 .page2 {
-	text-align: center;
     height: 100%;
+
     background-color: #428bca;
     color: #FFFFFF;
 	font-family: "Arial";
-	font-size: 15.5px;
+	font-size: 1.5em;
+}
+.text {
+    width: 80%;
+    text-align: center;
+    left: 10%;
 }
 #appDownloadButton {
     cursor: pointer;
@@ -35,4 +40,5 @@
 html, body
 {
     height: 100%;
+
 }
