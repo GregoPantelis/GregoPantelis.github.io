@@ -19,4 +19,3 @@ function getMobileOperatingSystem() {
     }
 
 }
-window.onload = getMobileOperatingSystem
