@@ -32,6 +32,6 @@
 #link {
     cursor: pointer;
 }
-body {
+body, html{
     height: 100%;
 }
