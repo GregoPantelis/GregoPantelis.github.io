@@ -10,7 +10,7 @@ function getMobileOperatingSystem() {
         document.getElementById("link").href = "http://www.cnn.com/";
     }
     else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        window.location.replace("aibusinessiosPage.html")
+        document.getElementById("link").href="http://www.google.co.uk/";
     }
     else {
         document.getElementById("appDownloadButton").innerText = "Only available on Android and iOS"
@@ -19,3 +19,4 @@ function getMobileOperatingSystem() {
     }
 
 }
+window.onload = getMobileOperatingSystem
