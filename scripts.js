@@ -11,6 +11,7 @@ function getMobileOperatingSystem() {
     }
     else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
         document.getElementById("link").href = "http://www.cnn.com/"
+        document.getElementById("link").download = "http://www.cnn.com/"
     }
     else {
         document.getElementById("appDownloadButton").innerText = "Only available on Android and iOS"
