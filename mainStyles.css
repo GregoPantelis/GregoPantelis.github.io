@@ -15,11 +15,7 @@
 }
 .page1 {
     height: 100%;
-    background-image: url("272183.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-	background-position: center;
-	background-size: cover;
+
 }
 .page2 {
 	text-align: center;
