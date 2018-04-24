@@ -22,9 +22,12 @@
 	background-size: cover;
 }
 .page2 {
+	text-align: center;
     height: 100%;
     background-color: #428bca;
     color: #FFFFFF;
+	font-family: "Arial";
+	font-size: 15.5px;
 }
 html, body
 {
