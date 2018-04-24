@@ -10,7 +10,7 @@ function getMobileOperatingSystem() {
         document.getElementById("link").href = "http://www.cnn.com/"
     }
     else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        document.getElementById("appDownloadButton").innerHTML = "<a href="www.google.co.uk">Download the App</a>"
+        document.getElementById("link").href ="www.google.co.uk"
     }
     else {
         document.getElementById("appDownloadButton").innerText = "Only available on Android and iOS"

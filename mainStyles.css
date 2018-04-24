@@ -27,7 +27,10 @@
 	font-size: 15.5px;
 }
 #appDownloadButton {
-    cursor:pointer;
+    cursor: pointer;
+}
+#link {
+    cursor: pointer;
 }
 html, body
 {
