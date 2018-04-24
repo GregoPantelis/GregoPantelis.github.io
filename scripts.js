@@ -10,7 +10,7 @@ function getMobileOperatingSystem() {
         document.getElementById("link").href = "http://www.cnn.com/";
     }
     else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        window.location.replace("iosPage.html")
+        window.location.replace("aibusinessiosPage.html")
     }
     else {
         document.getElementById("appDownloadButton").innerText = "Only available on Android and iOS"
