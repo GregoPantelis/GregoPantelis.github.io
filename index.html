@@ -19,7 +19,7 @@
     <script src="scripts.js"></script>
 </head>
 
-<body>
+<body onload="getMobileOperatingSystem">
 
     <div class="container" style="height: 100%">
         <div class="row page1">
@@ -30,8 +30,8 @@
 
             		<div>
 
-            			<a href="IBM_logo_image.png" download>
-                            <button type="button" class="btn btn-primary btn-lg" style="height:150px;width:350px">Download the App</button>
+            			<a id="link" href="IBM_logo_image.png" download>
+                            <button id="appDownloadButton" type="button" class="btn btn-primary btn-lg" style="height:150px;width:350px">Download the App</button>
                         </a>
 
 
